@@ -1,3 +1,65 @@
 body {
-	background-color: #000;
+	background-color: #132020;
+}
+
+body > * {
+	color: #FFF;
+	font-family: 'Raleway', sans-serif;
+}
+
+#bg {
+	width: 100%;
+}
+
+h1, h2 {
+	margin: 0px;
+}
+h3 {
+	color: #FFF;
+	text-align: center;
+	font-size: 60px;
+	margin: 0px 0px 25px 0px;
+	font-family: 'Cookie', cursive;
+}
+
+h1 {
+	font-size: 45px;
+    color: #cd7654;
+    margin-bottom: 5px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+#container {
+	width: 70%;
+	margin: auto;
+	height: 700px;
+}
+
+#intro, #specs {
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#intro {
+	text-align: center;
+}
+
+#specs {
+	border-left: 2px solid #584372;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+ul li {
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+ul {
+	margin: 2px 0px;
 }
