@@ -1,3 +1,6 @@
 body {
-	background-color: #000;
+	background-color: #132020;
+	background-image: url("images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
