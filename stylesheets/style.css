@@ -5,6 +5,8 @@ body {
 body > * {
 	color: #FFF;
 	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 #bg {
@@ -31,12 +33,15 @@ h1 {
 
 h2 {
 	font-size: 14px;
+	margin-bottom: 12px;
+	font-weight: bold;
+	font-style: italic;
 }
 
 #container {
 	width: 70%;
 	margin: auto;
-	height: 700px;
+	height: 310px;
 }
 
 #intro, #specs {
@@ -49,17 +54,42 @@ h2 {
 	text-align: center;
 }
 
+#intro-container {
+	width: 300px;
+	float: right;
+}
+
 #specs {
-	border-left: 2px solid #584372;
-	font-size: 15px;
+	border-left: 5px dotted #383737;
+	font-size: 14px;
 	line-height: 20px;
+	letter-spacing: 0.5px;
 }
 
-ul li {
+#links li {
+	display: inline-block;
+}
+
+#links ul li img {
+	height: 25px;
+	vertical-align: middle;
+}
+
+#links li a div {
+	background-color: #584372;
+	padding: 4px;
+	width: 29px;
+	border-radius: 7px;
+}
+
+#specs li {
 	list-style-type: none;
-	margin-left: 50px;
 }
 
-ul {
+#specs ul {
 	margin: 2px 0px;
+	padding-left: 55px;
 }
+
+
+
