@@ -198,3 +198,15 @@ h2 {
             transform: scale3D(0, 0, 1);
   } 
 }
+
+.day {
+  background-color: #000;
+}
+
+.day h1 {
+  color: #03a9f4;
+}
+
+.day #links li a div {
+  background-color: #795f38;
+}
